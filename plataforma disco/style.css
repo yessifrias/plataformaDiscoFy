@@ -1,0 +1,101 @@
+body {background-image: url("fondo2.jpg");
+    background-image: no-repeat;
+background-image: fixed;
+background-image: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+ }
+.container {
+   display: grid;
+    place-items: center;
+}
+
+ .titulo{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+ }
+ .titulodos{
+    text-align: center;
+ }
+.cajaprin {
+   background-color: #560a94a8;
+    color: black;
+    padding: 20px;
+    margin: 60px auto;
+    border: 3px solid #2D1674;
+    border-radius: 40px;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: 40px;
+    box-shadow: 10px 5px 5px black;
+    gap: 10px
+    
+}
+
+.letras{
+   font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.contenedor-galeria {
+   position: relative;
+   left: 35%;
+   top: 70px;
+   display: grid;
+   place-items: center;
+   width: 200px;
+}
+
+.galeria {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 5px;
+   max-width: 400px;
+}
+
+.contenedor-imagen {
+   position: relative;
+   left: 0;
+   width: 400px;
+   border-radius: 5px;
+   height: 400px;
+   overflow: hidden;
+   background-color: transparent;
+   transition: 0.4s ease-in-out;
+   box-shadow: 0 5px 12px rgb(0, 0, 0, 0.5);
+   flex: 0.25;
+}
+
+.contenedor-imagen img {
+   height: 400px;
+   width: 400px;
+   object-fit: cover;
+}
+
+.contenedor-imagen:hover {
+   flex: 2;
+   cursor: pointer;
+   border-radius: 8px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  
+}
+

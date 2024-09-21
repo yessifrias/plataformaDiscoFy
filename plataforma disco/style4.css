@@ -1,0 +1,13 @@
+body {background-image: url("fondo2.jpg");
+    background-image: no-repeat;
+background-image: fixed;
+background-image: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;}
+
+.principal{
+    position: relative;
+        top: 50px;
+}

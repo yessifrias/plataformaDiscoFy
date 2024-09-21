@@ -1,0 +1,138 @@
+body {background-image: url("fondo2.jpg");
+    background-image: no-repeat;
+background-image: fixed;
+background-image: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+ }
+
+.container {
+   display: grid;
+    place-items: center;
+
+}
+
+
+.contmusic{
+   position: relative; 
+   top: 150px;
+   left: 50%;
+   
+   
+
+}
+.audio-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 80px;
+    background-color: #560a94a8;
+    border-radius: 8px;
+    padding: 8px;
+    box-sizing: border-box;
+    gap: 10px;
+    
+  }
+  
+  .album-cover {
+    width: 64px;
+    height: 64px;
+    background-color: #fff;
+    margin-right: 20px;
+    border: 2px solid black;
+    
+  }
+  
+  .player-controls {
+    flex-grow: 1;
+    display: flex;
+    flex-direction:column;
+  }
+  
+  .song-info {
+    margin-bottom: 4px;
+  }
+  
+  .song-title {
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .artist {
+    font-size: 12px;
+    color: #b3b3b3;
+    margin: 0;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 4px;
+    background-color: #5b5a5c;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    width: 50%;
+    height: 100%;
+    background-color: #55118dd5;
+    transform-origin: left;
+    animation: progress-animation 10s linear infinite;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .play-btn,
+  .pause-btn {
+    font-size: 16px;
+    color: #fff;
+    margin-right: 8px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .play-btn:hover,
+  .pause-btn:hover {
+    transform: scale(1.2);
+  }
+  
+  @keyframes progress-animation {
+    0% {
+      transform: scaleX(0);
+    }
+  
+    100% {
+      transform: scaleX(1);
+    }
+  }
+ 
+
+ .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24,
+   
+  }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24,
+  
+}
